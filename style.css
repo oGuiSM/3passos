@@ -1,60 +1,60 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: #000000;
+    color: #ff69b4; /* rosa */
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://img.freepik.com/fotos-premium/textura-de-ardosia-superficie-mais-plana-camadas-de-ardosia-camada-macia-sem-marca-d-agua_894361-843.jpg?w=1380');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(249, 243, 243, 0.7); /* 30% de transparência */
+    background-color: #f9f3f3;
 }
 
-#container {
-    margin-top: 100px;
-}
-
-p {
+.message {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
-    color: rgb(255, 0, 0);
     text-shadow: 1px 1px 1px #ffffff;
 }
 
 #countdown {
-    font-size: 36px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
-#message, #success {
+.heart {
+    font-size: 72px; /* Aumentando o tamanho do coração */
+    margin: 0 5px;
+    color: #ff69b4; /* rosa */
+    opacity: 1;
+    animation: pulse 1s infinite alternate; /* Animação de pulsação */
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.hidden {
     display: none;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px #ffffff;
 }
 
-button {
-    background-color: #ff4d4d;
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.fade-in-out {
+    animation: fadeInOut 2s linear forwards; /* Animação de aparecer e desaparecer */
 }
 
-button:hover {
-    background-color: #ff3333;
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
