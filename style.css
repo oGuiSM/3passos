@@ -20,10 +20,13 @@ body {
     margin-top: 100px;
 }
 
-p {
+p, button {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 #countdown {
@@ -54,4 +57,5 @@ button {
 
 button:hover {
     background-color: #ff3333;
+    border: 2px solid #ff4d4d;
 }
