@@ -1,0 +1,57 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f3f3;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/top-view-different-red-pink-heart-shapes-table_23-2148451003.jpg?w=1380&t=st=1706479543~exp=1706480143~hmac=e6f92aab6acf4ed0a4f1855e1be68a8b6e8f7eb0becc3e7e3a93c58df756e2e0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(249, 243, 243, 0.7); /* 30% de transparência */
+}
+
+#container {
+    margin-top: 100px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#countdown {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+#message, #success {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
