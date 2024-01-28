@@ -19,7 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
 function conquistar() {
     var message = document.getElementById('message');
     var success = document.getElementById('success');
+    var body = document.body;
 
     message.style.display = 'none';
     success.style.display = 'block';
+    body.style.backgroundImage = "url('https://img.freepik.com/fotos-premium/mao-fazendo-um-conceito-de-forma-de-coracao-amor-e-relacionamento-gesto_33745-540.jpg')";
 }
