@@ -1,6 +1,5 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f3f3;
     text-align: center;
     color: #000000;
     margin: 0;
@@ -9,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://img.freepik.com/free-photo/top-view-different-red-pink-heart-shapes-table_23-2148451003.jpg?w=1380&t=st=1706479543~exp=1706480143~hmac=e6f92aab6acf4ed0a4f1855e1be68a8b6e8f7eb0becc3e7e3a93c58df756e2e0');
+    background-image: url('https://img.freepik.com/fotos-premium/textura-de-ardosia-superficie-mais-plana-camadas-de-ardosia-camada-macia-sem-marca-d-agua_894361-843.jpg?w=1380');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,21 +17,20 @@ body {
 
 #container {
     margin-top: 100px;
-    background-color: rgba(255, 255, 255, 0.7); /* Área branca com 70% de transparência */
-    padding: 20px;
-    border-radius: 20px;
 }
 
-p, button {
+p {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 1px #ffffff;
 }
 
 #countdown {
     font-size: 36px;
     font-weight: bold;
-    color: #ff4d4d;
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
@@ -41,6 +39,8 @@ p, button {
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #ffffff;
 }
 
 button {
